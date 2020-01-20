@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Laxmi-Blog.github.io</id>
+    <title>拉克希米 Laxmi</title>
+    <updated>2020-01-20T15:15:26.098Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Laxmi-Blog.github.io"/>
+    <link rel="self" href="https://Laxmi-Blog.github.io/atom.xml"/>
+    <subtitle>我们必须有勇气面对严峻的现实。
+We must have the courage to face the bitter truth.</subtitle>
+    <logo>https://Laxmi-Blog.github.io/images/avatar.png</logo>
+    <icon>https://Laxmi-Blog.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 拉克希米 Laxmi</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://Laxmi-Blog.github.io/post/about-cn</id>
+        <link href="https://Laxmi-Blog.github.io/post/about-cn">
+        </link>
+        <updated>2019-12-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>欢迎来到拉克希米的博客🤝</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到拉克希米的博客🤝</p>
+</blockquote>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://Laxmi-Blog.github.io/post-images/1579357064656.jpg" alt="链接的手" loading="lazy"></figure>
+<p>Photo by <a href="/photographer/juliaf-55850">Julia Freeman-Woolpert</a> from <a href="https://freeimages.com/">FreeImages</a></p>
+<h1 id="关于本站">关于本站</h1>
+<ul>
+<li>这是一个由匿名作者们合力撰写的双语博客，主要面向中国大部分能使用互联网的读者，同时也希望能为外国友人提供了解中国的渠道。</li>
+<li>为了便于各方的阅读，英文版博文(博客的文章）的内容会与中文版有些微不同。</li>
+</ul>
+<blockquote>
+<p><a href="https://baike.baidu.com/item/%E5%8D%9A%E5%AE%A2">百度百科 博客</a><br>
+博客，仅音译，英文名为Blogger，为Web Log的混成词。它的正式名称为网络日记；又音译为部落格或部落阁等，是使用特定的软件，在网络上出版、发表和张贴个人文章的人，或者是一种通常由个人管理、不定期张贴新的文章的网站。</p>
+</blockquote>
+<h1 id="博主是谁">博主是谁</h1>
+<p>博主是所有自愿无偿供稿的投稿者。我们共用一个笔名：拉克希米（Laxmi）。</p>
+<h1 id="欢迎来稿">欢迎来稿</h1>
+<p>邮箱：Laxmi_Hyacintha@protonmail.com<br>
+<em>为保证邮件安全，推荐国内读者使用<a href="https://mail.protonmail.com/login">Protonmail</a>邮箱与管理员联系</em></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[About]]></title>
+        <id>https://Laxmi-Blog.github.io/post/about-en</id>
+        <link href="https://Laxmi-Blog.github.io/post/about-en">
+        </link>
+        <updated>2019-12-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>Welcome to Laxmi's blog.🤝</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>Welcome to Laxmi's blog.🤝</p>
+</blockquote>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://Laxmi-Blog.github.io/post-images/1579357064656.jpg" alt="Linked Hands" loading="lazy"></figure>
+<p>Photo by <a href="/photographer/juliaf-55850">Julia Freeman-Woolpert</a> from <a href="https://freeimages.com/">FreeImages</a></p>
+<h1 id="about-our-website">About our website</h1>
+<ul>
+<li>This is a bilingual blog written by anonymous authors. It is mainly aimed at readers who can use the Internet in China. It also hopes to provide foreign friends with a channel to understand China.</li>
+<li>For the convenience of all parties, the content of the English version of the blog post will be slightly different from the Chinese version.</li>
+</ul>
+<h1 id="whos-blogger">Who's blogger</h1>
+<p>The bloggers are contributors to all voluntary unpaid contributions. We share a pseudonym: Laxmi.</p>
+<h1 id="contributions-welcome">Contributions welcome</h1>
+<p>Email: Laxmi_Hyacintha@protonmail.com</p>
+]]></content>
+    </entry>
+</feed>
