@@ -1,473 +1,280 @@
-<!DOCTYPE html>
+
 <html>
   <head>
-      <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>拉克希米 Laxmi</title>
-<link rel="shortcut icon" href="https://Laxmi-Blog.github.io/favicon.ico?v=1579533543299">
-<link rel="stylesheet" href="https://Laxmi-Blog.github.io/styles/main.css">
-<link rel="stylesheet" href="/media/fonts/font-awesome.css">
-<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    
+<meta charset="utf-8" >
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"></script>
-      <meta name="description" content="我们必须有勇气面对严峻的现实。
+<title>拉克希米-Laxmi</title>
+<meta name="description" content="我们必须有勇气面对严峻的现实。
 We must have the courage to face the bitter truth.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://Laxmi-Blog.github.io/favicon.ico?v=1581690542989">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://Laxmi-Blog.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="head-top-line"></div>
-    <div class="header-box">
-      
-<div class=" gemini">
-  <header class="header">
-    <div class="blog-header" id="header">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
-        </div>
-      </div>
-      <div class="site-meta">       
-        <div class="site-title">
-          
-            <a href="/" class="brand">
-              <span>拉克希米 Laxmi</span>
-            </a>  
-          
-        </div>
-        
-          <p class="subtitle">欢迎来访。Welcome to my blog.</p>
-        
-      </div>
-      <nav class="site-nav" id="site_nav">
-        <ul id="nav_ul">
-          
-            <li class="nav-item ">
-              
-                <a href="/tag/bTQCBm7mN/">
-                  <i class="fa fa-"></i> 中文博文 / Posts in Chinese
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="/tag/IoBmEQi_G/">
-                  <i class="fa fa-"></i> Posts in English / 英文博文
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="/tags">
-                  <i class="fa fa-tags"></i> 标签 / Tags
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="/post/about-cn">
-                  <i class="fa fa-"></i> 关于
-                </a>
-              
-            </li>
-          
-            <li class="nav-item ">
-              
-                <a href="/post/about-en">
-                  <i class="fa fa-"></i> About
-                </a>
-              
-            </li>
-          
-          <li class="nav-item">
-            <a>
-              <i class="fa fa-search"></i> 搜索
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-</div>
-
-<script type="text/javascript"> 
- 
-  let showNav = true;
-
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
-
-  navToggle.addEventListener('click',navClick);  
-</script>
-    </div>
-    <div class="main-continer">
-      
-      <div class="section-layout gemini">
-        <div class="section-layout-wrapper">
-          <div class="sidebar">
-    <div class="sidebar-wrapper">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="https://Laxmi-Blog.github.io/images/avatar.png"/>
-    <p class="site-author-name">拉克希米 Laxmi</p>
-    <p class="site-description right-motion">我们必须有勇气面对严峻的现实。
-We must have the courage to face the bitter truth.</p>
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">2</span>
-        <span class="site-item-stat-name">文章</span>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://Laxmi-Blog.github.io">
+        <img class="avatar" src="https://Laxmi-Blog.github.io/images/avatar.png?v=1581690542989" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://Laxmi-Blog.github.io">
+        <h1 class="site-title">拉克希米-Laxmi</h1>
       </a>
     </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">2</span>
-        <span class="site-item-stat-name">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">2</span>
-        <span class="site-item-stat-name">标签</span>
-      </a>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
     </div>
   </div>
-  
-  
-    
-      <div class="sidebar-item">
-        <span class="site-item-rss">
-            <i class="fa fa-rss"></i>
-            <a href="https://Laxmi-Blog.github.io/atom.xml" target="_blank">RSS</a>
-        </span>
-      </div>
-    
-  
-  
-    <div class="sidebar-item sidebar-item-social">
-      <div class="social-item">
-          
-          
-          
-          
-          
-          
-          
-      </div>
-    </div>
-  
-
-  <div class="sidebar-item right-motion sidebar-item-friends">
-    <p class="friends-title"><i class="fa fa-globe"></i> 拉克希米的邮箱   Laxmi&#39;s Email</p>
-    <div class="friends-box">
-      
-        <p>
-          <a href="Mailto:Laxmi_Hyacintha@protonmail.com&amp;Subject=Hello from Laxmi&#39;s Blog">【Laxmi_Hyacintha@protonmail.com】</a>
-        </p>
-      
-    </div>
-  </div>
-
 </div>
-</div>
-          <div class="section-box gemini">
-            <section class="section posts-expand slide-down-in">
-              
-  <article class="post-list-box post">
-    <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://Laxmi-Blog.github.io/post/about-cn">
-      关于
-    </a>
-  </h1>
-  <div class="post-meta">
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2020-01-01</span>
-    </span>
-    
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://Laxmi-Blog.github.io/tag/bTQCBm7mN">
-              <span>中文/Chinese</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>1分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>271<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-    <div class="post-body">
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <img src="" />
-          <blockquote>
+          <a href="/tag/bTQCBm7mN/" class="menu purple-link">
+            中文博文 / Posts in Chinese
+          </a>
+        
+      
+        
+          <a href="/tag/IoBmEQi_G/" class="menu purple-link">
+            Posts in English / 英文博文
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签 / Tags
+          </a>
+        
+      
+        
+          <a href="/post/about-cn" class="menu purple-link">
+            关于
+          </a>
+        
+      
+        
+          <a href="/post/about-en" class="menu purple-link">
+            About
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://Laxmi-Blog.github.io/post/about-cn">
+        <h2 class="post-title">关于</h2>
+      </a>
+      <div class="post-abstract">
+        <blockquote>
 <p>欢迎来到拉克希米的博客🤝</p>
 </blockquote>
 
-        
-      
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://Laxmi-Blog.github.io/post/about-cn" rel="contents">
-          阅读全文 »
-        </a>
       </div>
-      
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-01-01</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/bTQCBm7mN">
+                中文/Chinese
+                
+              </a>
+            
+          </span>
+        
+      </div>
     </div>
     
-  </article>
+      <a href="https://Laxmi-Blog.github.io/post/about-cn">
+        <div class="feature-container" style="background-image: url('https://Laxmi-Blog.github.io/post-images/about-cn.jpg')">
+        </div>
+      </a>
+    
+  </section>
 
-  <article class="post-list-box post">
-    <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://Laxmi-Blog.github.io/post/about-en">
-      About
-    </a>
-  </h1>
-  <div class="post-meta">
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2020-01-01</span>
-    </span>
+<section class="post-item">
+    <div class="content">
+      <a href="https://Laxmi-Blog.github.io/post/WmA_vUSjn">
+        <h2 class="post-title">《我的英雄学院》被抵制</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-02-14</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/2GlRW--8e">
+                记事/Memo
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/bTQCBm7mN">
+                中文/Chinese
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
     
-      <span class="meta-item">
-        <span class="post-meta-divider pc-show">|</span>
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://Laxmi-Blog.github.io/tag/IoBmEQi_G">
-              <span>English/英文</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
+      <a href="https://Laxmi-Blog.github.io/post/WmA_vUSjn">
+        <div class="feature-container" style="background-image: url('https://Laxmi-Blog.github.io/post-images/WmA_vUSjn.jpg')">
+        </div>
+      </a>
     
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>1分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>97<span class="pc-show">字数</span></span>
-    </span>
-  </div>
-</header>
-    <div class="post-body">
-      
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://Laxmi-Blog.github.io/post/Vq1VuZyZQ">
+        <h2 class="post-title">My Hero Academia boycotted in China</h2>
+      </a>
+      <div class="post-abstract">
         
-          <img src="" />
-          <blockquote>
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-02-14</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/2GlRW--8e">
+                记事/Memo
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/IoBmEQi_G">
+                English/英文
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://Laxmi-Blog.github.io/post/Vq1VuZyZQ">
+        <div class="feature-container" style="background-image: url('https://Laxmi-Blog.github.io/post-images/Vq1VuZyZQ.jpg')">
+        </div>
+      </a>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://Laxmi-Blog.github.io/post/about-en">
+        <h2 class="post-title">About</h2>
+      </a>
+      <div class="post-abstract">
+        <blockquote>
 <p>Welcome to Laxmi's blog.🤝</p>
 </blockquote>
 
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2020-01-01</span>
         
-      
-      
-      <div class="post-button text-center">
-        <a class="btn" href="https://Laxmi-Blog.github.io/post/about-en" rel="contents">
-          阅读全文 »
-        </a>
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://Laxmi-Blog.github.io/tag/IoBmEQi_G">
+                English/英文
+                
+              </a>
+            
+          </span>
+        
       </div>
-      
     </div>
     
-  </article>
-  
-              
-              
-<div class="page">
-  <ul class="pagination-ul">
-    
-    
-      
-        <li class="pagination-li pagination-active">
-            <a href="/page/../">
-              1
-            </a>
-        </li>
-      
-    
-    
-  </ul>
-</div>
-            </section>
-          </div>
+      <a href="https://Laxmi-Blog.github.io/post/about-en">
+        <div class="feature-container" style="background-image: url('https://Laxmi-Blog.github.io/post-images/about-en.jpg')">
         </div>
-      </div>
-      <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      © 2019-2020 <i class="fa fa-heart"></i> HsxyHao
-    </div>
-    <div class="poweredby">
-      <div class="power-left">Power By<a href="https://github.com/hsxyhao"> HsxyHao</a></div>
-      <div>Copy From<a href="https://github.com/iissnan/hexo-theme-next"> Hexo Next Theme</a></div>
-    </div>
-  </footer>
-  
-  
-  <div class="gemini back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
+      </a>
     
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">我们必须有勇气面对严峻的现实。
+We must have the courage to face the bitter truth.</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
   </div>
-  
-    <div class="bg-img">
-      <img src="\media\images\custom-bgImg.jpg" />
-    </div>
-  
+  Laxmi | <a class="rss" href="https://Laxmi-Blog.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
 
-  let sideBarOpen = 'sidebar-open';
-  let body = document.body;
-  let back2Top = document.querySelector('#back_to_top'),
-  back2TopText = document.querySelector('#back_to_top_text'),
-  drawerBox = document.querySelector('#drawer_box'),
-  rightSideBar = document.querySelector('.sidebar'),
-  viewport = document.querySelector('body');
-
-  function scrollAnimation(currentY, targetY) {
-   
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
-      } else {
-        window.scrollTo(_currentY, targetY)
-      }
-    }, 1)
-  }
-
-  back2Top.addEventListener("click", function(e) {
-    scrollAnimation(body.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-  
-  window.addEventListener('scroll', function(e) {
-    let percent = body.scrollTop / (body.scrollHeight - body.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    if (back2TopText) {
-      back2TopText.textContent = Math.floor(percent);
-    }
-  });
-
-  // 动态调整站点概览高度
-  if (back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    sideBar.style = 'margin-top:' + (navUl.children.length * 42 + 162) + 'px;';
-  }
-  
-  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
-
-  if (drawerBox) {
-    let rightMotions = document.querySelectorAll('.right-motion');
-    drawerBox.onclick = function() {
-      open = !open;
-      window.Velocity(rightSideBar, 'stop');
-      window.Velocity(viewport, 'stop');
-      if (open) {
-        window.Velocity(rightSideBar, {
-          width: RIGHT_MOVE_DIS
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            console.log(rightMotions)
-            window.Velocity(rightMotions, 'transition.slideRightIn',{
-            });
-          }
-        })
-        window.Velocity(viewport, {
-          paddingRight: RIGHT_MOVE_DIS
-        } ,{
-          duration: MOTION_TIME
-        });
-      } else {
-        window.Velocity(rightSideBar, {
-          width: '0px'
-        }, {
-          duration: MOTION_TIME,
-          begin: function() {
-            window.Velocity(rightMotions, {
-              opacity: 0
-            });
-          }
-        })
-        window.Velocity(viewport, {
-          paddingRight: '0px'
-        } ,{
-          duration: MOTION_TIME
-        });
-      }
-      for (let i = 0; i < drawerBox.children.length; i++) {
-        drawerBox.children[i].classList.toggle('muse-line');
-      }
-      drawerBox.classList.toggle(sideBarOpen);
-    }
-  }
-
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
-</script>
     </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
-  <script src="/media/js/motion.js"></script>
 </html>
